@@ -2,11 +2,10 @@ import React from 'react';
 import * as d3 from 'd3';
 import $ from "jquery";
 import * as topojson from "topojson-client";
-import { useD3 } from './hooks/useD3';
-
+import { useD3 } from '../hooks/useD3';
+import "./Map.css"
 function Map() {
-  d3.selectAll("svg > *").remove();
-  const ref = useD3(
+   useD3(
     () => {
       var width = 960,
         height = 700;
