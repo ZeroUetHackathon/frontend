@@ -1,0 +1,97 @@
+.nav-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: #688275;
+}
+
+.searchbar-text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #2f5241;
+}
+
+.login-title-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: white;
+}
+
+.login-title-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: white;
+}
+
+.category-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #7b7b7b;
+}
+
+.product-name {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.product-description {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+
+.product-price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #e04e4e;
+}
+
+.button-text {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+
+.wiki-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #305241;
+}
+
+.wiki-subtitle {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #181818;
+}
+
+.province-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #688275;
+}
+
+.footer-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #252b42;
+}
+
+.footer-option {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #737373;
+}

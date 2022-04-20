@@ -704,7 +704,7 @@ function Map() {
     <div id="wrapper">
       <div className="scatterplot-wrapper"></div>
       <div className="legend-wrapper">
-        <h1>Population density</h1>
+        <h1 className="title-1">Population density</h1>
         <div className="index-level-bar">
           <div className="bar-legend"></div>
           <div className="bar-label">Lower denisty</div>
