@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import $ from "jquery";
 import * as topojson from "topojson-client";
 import { useD3 } from "../../hooks/useD3";
-import "./Map.css";
+import "../../styles/map.css";
 function Map() {
   useD3(() => {
     let width = 960,
