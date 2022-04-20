@@ -26,6 +26,42 @@
   color: white;
 }
 
+.login-field-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+}
+
+.login-field-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.forgot-password {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  text-decoration-line: underline;
+}
+
+.login-big-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.login-small-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: white;
+}
+
 .category-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
