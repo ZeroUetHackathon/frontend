@@ -6,22 +6,22 @@ import { useD3 } from "../../hooks/useD3";
 import "./Map.css";
 function Map() {
   useD3(() => {
-    var width = 960,
+    let width = 960,
       height = 700;
-    var active = d3.select(null);
-    var zoomScale, zoomTranslate;
+    let active = d3.select(null);
+    let zoomScale, zoomTranslate;
 
     // We create a quantile scale to categorize the values in 5 groups.
     // The domain is static and has a minimum/maximum of population/density.
     // The scale returns text values which can be used for the color CSS
     // classes (q0-9, q1-9 ... q8-9)
-    var quantiles = d3.scale.quantile().range(
+    let quantiles = d3.scale.quantile().range(
       d3.range(9).map(function (i) {
         return "q" + i + "-9";
       })
     );
 
-    var svg, g, path, zoom, projection, tooltip, scatterplot;
+    let svg, g, path, zoom, projection, tooltip;
 
     $(function () {
       // Area, population and population density in 2011 by province
@@ -67,22 +67,22 @@ function Map() {
 
           // While our data can be stored more efficiently in TopoJSON,
           // we must convert back to GeoJSON for display.
-          var features = topojson.feature(json, json.objects.states).features;
+          let features = topojson.feature(json, json.objects.states).features;
 
           // Merge the ag. data and GeoJSON
           // Loop through once for each ag. data value
-          for (var i = 0; i < data.length; i++) {
+          for (let i = 0; i < data.length; i++) {
             // Grab state name
-            var dataIso = data[i].iso;
+            let dataIso = data[i].iso;
             // Grab data value, and convert from string to float
-            var density = parseFloat(data[i].density);
-            var population = parseFloat(data[i].population);
-            var area = parseFloat(data[i].area);
+            let density = parseFloat(data[i].density);
+            let population = parseFloat(data[i].population);
+            let area = parseFloat(data[i].area);
 
             //Find the corresponding state inside the GeoJSON
-            for (var j = 0; j < features.length; j++) {
-              var jsonIso = features[j].properties.iso;
-              if (dataIso == jsonIso) {
+            for (let j = 0; j < features.length; j++) {
+              let jsonIso = features[j].properties.iso;
+              if (dataIso === jsonIso) {
                 // Copy the data value into the JSON
                 features[j].properties.density = density;
                 features[j].properties.population = population;
@@ -101,7 +101,7 @@ function Map() {
             })
           );
 
-          var legend = d3
+          let legend = d3
             .select(".bar-legend")
             .append("svg")
             .attr("width", 240)
@@ -131,7 +131,7 @@ function Map() {
               d3.selectAll(".legend").style("opacity", 0.3);
               d3.select(this).style("opacity", 1);
 
-              var level = d3.select(this).attr("data-level");
+              let level = d3.select(this).attr("data-level");
 
               d3.selectAll(".feature")
                 .style("opacity", 0.1)
@@ -160,16 +160,16 @@ function Map() {
     }
 
     function drawScatterplot(data) {
-      var margin = {
+      let margin = {
         top: 20,
         right: 10,
         bottom: 80,
         left: 40,
       };
-      var w = 270 - margin.left - margin.right;
-      var h = 270 - margin.top - margin.bottom;
+      let w = 270 - margin.left - margin.right;
+      let h = 270 - margin.top - margin.bottom;
 
-      var scatter = d3
+      let scatter = d3
         .select(".scatterplot-wrapper")
         .append("svg")
         .attr("width", w + margin.left + margin.right)
@@ -178,7 +178,7 @@ function Map() {
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       /// Population (x)
-      var xscale = d3.scale
+      let xscale = d3.scale
         .linear()
         .domain([
           d3.min(data, function (d) {
@@ -191,7 +191,7 @@ function Map() {
         .range([0, w]);
 
       // Area (y)
-      var yscale = d3.scale
+      let yscale = d3.scale
         .linear()
         .domain([
           d3.min(data, function (d) {
@@ -203,7 +203,7 @@ function Map() {
         ])
         .range([h, 0]);
 
-      var rscale = d3.scale
+      let rscale = d3.scale
         .sqrt()
         .domain([
           d3.min(data, function (d) {
@@ -216,7 +216,7 @@ function Map() {
         .range([3, 15]);
 
       // Define X axis
-      var xaxis = d3.svg
+      let xaxis = d3.svg
         .axis()
         .scale(xscale)
         .orient("bottom")
@@ -224,7 +224,7 @@ function Map() {
         .tickFormat(d3.format("s"));
 
       // Define Y axis
-      var yaxis = d3.svg
+      let yaxis = d3.svg
         .axis()
         .scale(yscale)
         .orient("left")
@@ -265,9 +265,9 @@ function Map() {
         .attr("transform", "rotate(-90)")
         .text("Area (1000 km2)");
 
-      var clr = d3.scale.category20();
+      let clr = d3.scale.category20();
 
-      var circles = scatter
+      let circles = scatter
         .selectAll("circle")
         .data(data)
         .enter()
@@ -305,10 +305,10 @@ function Map() {
     function drawMap(json, features) {
       // @see http://geojson.org/
       // Create a first guess for the projection
-      //var center = d3.geo.centroid(json);
-      var center = [106.34899620666437, 16.553160650957434];
-      var scale = 2500;
-      var offset = [width / 2, height / 2 - 50];
+      //let center = d3.geo.centroid(json);
+      let center = [106.34899620666437, 16.553160650957434];
+      let scale = 2500;
+      let offset = [width / 2, height / 2 - 50];
 
       // The projection function takes a location [longitude, latitude]
       // and returns a Cartesian coordinates [x,y] (in pixels).
@@ -321,7 +321,7 @@ function Map() {
       // anything larger will expand it.
       //
       // Add a scale() method with 800 to our projection in order to shrink things down a bit
-      //var projection = d3.geo.albersUsa()
+      //let projection = d3.geo.albersUsa()
       //     .translate([w / 2, h / 2]).scale([800]);
       projection = d3.geo
         .mercator()
@@ -372,7 +372,7 @@ function Map() {
       //-----------------------------------------------------------------
       // For country boundary and state mesh/not data binding
       //-----------------------------------------------------------------
-      var boundary = g.append("g").attr("class", "boundary");
+      let boundary = g.append("g").attr("class", "boundary");
 
       g.attr("class", "states")
         .selectAll("path") // select all the current path nodes
@@ -399,7 +399,7 @@ function Map() {
           //---------------------------------------------------------
           $("#feature-info").find("tr:gt(0)").remove();
 
-          var html =
+          let html =
             "<tr><td>" +
             d.properties.name +
             "</td>" +
@@ -476,7 +476,7 @@ function Map() {
         .append("text") // if not enough elements create a text
         .attr("class", function (d) {
           // To make contract text
-          var className = "state-label state-" + d.properties.iso;
+          let className = "state-label state-" + d.properties.iso;
           return className + " " + quantiles(d.properties.density);
         })
         .text(function (d) {
@@ -514,7 +514,7 @@ function Map() {
 
         rows.forEach(function (row, i) {
           // Create new group and binding data
-          var sg = g
+          let sg = g
             .selectAll(".cities")
             .append("g")
             .datum(row)
@@ -613,7 +613,7 @@ function Map() {
         .style("font-size", 12 / d3.event.scale + 1.5 + "px")
         .attr(
           "dy",
-          d3.event.scale == 1
+          d3.event.scale === 1
             ? "0.35em"
             : (1 / d3.event.scale) * 0.35 + 0.2 + "em"
         );
@@ -682,7 +682,7 @@ function Map() {
       zoomScale = zoom.scale();
       zoomTranslate = zoom.translate();
 
-      var bounds = path.bounds(d),
+      let bounds = path.bounds(d),
         dx = bounds[1][0] - bounds[0][0],
         dy = bounds[1][1] - bounds[0][1],
         x = (bounds[0][0] + bounds[1][0]) / 2,
