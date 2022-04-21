@@ -2,7 +2,6 @@
 import { BrowserRouter } from "react-router-dom";
 import Router from "./routes";
 import Navbar from "./components/Navbar/Navbar";
-import Map from "./components/Map/Map";
 
 // css
 import "./App.css";
