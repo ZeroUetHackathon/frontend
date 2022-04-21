@@ -44,7 +44,7 @@ function Router() {
   ]);
 }
 
-const AuthPage = Loadable(lazy(() => import("../pages/Auth")));
-const MainPage = Loadable(lazy(() => import("../pages/Home")));
+const AuthPage = Loadable(lazy(() => import("../pages/Auth/Auth")));
+const MainPage = Loadable(lazy(() => import("../pages/Home/Home")));
 
 export default Router;
