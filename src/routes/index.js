@@ -18,15 +18,9 @@ function Router() {
       // element: {}
       children: [
         {
-          path: "auth",
+          path: "login",
           element: <AuthPage />,
         },
-        // {
-        //   path: "login",
-        // },
-        // {
-        //   path: "register",
-        // },
         {
           path: "forgot-password",
         },
@@ -50,7 +44,7 @@ function Router() {
   ]);
 }
 
-const AuthPage = Loadable(lazy(() => import("../pages/Login")));
+const AuthPage = Loadable(lazy(() => import("../pages/Auth")));
 const MainPage = Loadable(lazy(() => import("../pages/Home")));
 
 export default Router;
