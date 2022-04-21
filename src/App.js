@@ -7,6 +7,7 @@ import Login from "./components/Login/Login";
 // css
 import "./App.css";
 import "./styles/font.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
       style={{ width: "100%", minHeight: "100vh", flexDirection: "column" }}
     >
       
-       <BrowserRouter>
-        <Navbar />
-        <Router />
-        <Login/>
-        {/* <Signup/> */}
-      </BrowserRouter> 
+       {/* <BrowserRouter> */}
+        {/* <Navbar /> */}
+        {/* <Router /> */}
+        <Footer/>
+        {/* <Login/>
+        <Signup/> */}
+      {/* </BrowserRouter>  */}
       
     </div>
   );
