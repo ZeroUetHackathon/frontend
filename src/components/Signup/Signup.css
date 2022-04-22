@@ -10,13 +10,14 @@ body {
 }
 
 .v9_260 {
-    width: 64%;
+    width: 70%;
     height: 791px;
-    background: linear-gradient(rgba(255, 255, 255, 0.2199999988079071), rgba(255, 255, 255, 0.20000000298023224));
+    /* background: linear-gradient(rgba(255, 255, 255, 0.2199999988079071), rgba(255, 255, 255, 0.20000000298023224)); */
+    background:rgba(255,255,255,0);
     opacity: 1;
     position: absolute;
     top: 0px;
-    left: 400px;
+    left: 250px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -233,7 +234,7 @@ body {
 .v9_261 {
     width: 526px;
     height: 732px;
-    background: rgba(138, 174, 146, 0.800000011920929);
+    background:rgba(255,255,255,0.1);
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -327,3 +328,69 @@ body {
     opacity: 1;
     text-align: left;
 }
+.or- {
+    top: 610px;
+    left: 825px;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+  }
+
+  .v10-307 {
+    width: 194px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 670px;
+    left: 850px;
+    overflow: hidden;
+    background-color:rgba(138, 174, 146, 0.800000011920929);
+  }
+
+  .v10-308 {
+    background-color:rgba(138, 174, 146, 0.800000011920929);
+    width: 194px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .v10-309 {
+    width: 152px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 11px;
+    left: 40px;
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .v10-310 {
+    width: 23px;
+    height: 24px;
+    opacity: 1;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    overflow: hidden;
+  }
+  .v10-311 {
+    width: 194px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 670px;
+    left: 650px;
+    overflow: hidden;
+    background-color:rgba(138, 174, 146, 0.800000011920929);
+  }
+ 

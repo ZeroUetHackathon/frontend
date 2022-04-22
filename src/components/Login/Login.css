@@ -8,13 +8,15 @@
     height: 100%;
   }
   .v9_242 {
-    width: 64%;
+    width: 70%;
     height: 791px;
-    background: linear-gradient(rgba(255,255,255,0.2199999988079071), rgba(255,255,255,0.20000000298023224));
+    /* background: linear-gradient(rgba(255,255,255,0.2199999988079071), rgba(255,255,255,0.20000000298023224)); */
+    background: rgba(255,255,255,0);
+
     opacity: 1;
     position: relative;
     top: 0px;
-    left: 400px;
+    left: 250px;
     /* right: 1000px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -25,11 +27,12 @@
   .v9_243 {
     width: 526px;
     height: 732px;
-    background: rgba(138,174,146,0.800000011920929);
+    /* background: rgba(138,174,146,0.800000011920929); */
+    background: rgba(255,255,255,0.1);
     opacity: 1;
     position: absolute;
     top: 29px;
-    left: 546px;
+    left: 496px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -65,7 +68,7 @@
     color: rgba(255,255,255,1);
     position: absolute;
     top: 178px;
-    left: 714px;
+    left: 664px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 32px;
@@ -183,7 +186,7 @@
     opacity: 1;
     position: absolute;
     top: 402px;
-    left: 714px;
+    left: 664px;
   }
   .v9_256 {
     width: 107px;
@@ -224,17 +227,71 @@
     text-align: center;
   }
 
-  .bt {
+
+  .or {
+    top: 567px;
+    left: 265px;
     position: absolute;
-width: 136px;
-height: 36px;
-left: 650px;
-top: 551px;
-
-background: #000000;
-backdrop-filter: blur(40px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
   }
-  
+  .v10_307 {
+   
+    width: 194px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 625px;
+    left: 295px;
+    overflow: hidden;
+    background-color:rgba(138, 174, 146, 0.800000011920929);
+  }
+
+  .v10_308 {
+    background-color:rgba(138, 174, 146, 0.800000011920929);
+    width: 194px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+    
+    overflow: hidden;
+  }
+
+  .v10_309 {
+    width: 152px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 11px;
+    left: 40px;
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .v10_310 {
+    width: 23px;
+    height: 24px;
+    opacity: 1;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    overflow: hidden;
+  }
+  .v10_311 {
+    width: 194px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 625px;
+    left: 93px;
+    overflow: hidden;
+    background-color:rgba(138, 174, 146, 0.800000011920929);
+  }
