@@ -2,15 +2,15 @@ export const wrapperStyle = {
   display: "flex",
   backgroundColor: "#E6EBE6",
   color: "#2F5241",
-  borderRadius: 23,
+  borderRadius: 20,
   width: 796,
-  height: 50,
+  height: 40,
   flexDirection: "row",
   alignItems: "center",
 };
 
 export const inputStyle = {
-  marginLeft: 28,
+  marginLeft: 24,
   width: "100%",
   background: "transparent",
   "&::placeholder": { color: "#E6EBE6" },
@@ -19,7 +19,7 @@ export const inputStyle = {
 };
 
 export const searchIconStyle = {
-  width: 28,
-  height: 28,
+  width: 20,
+  height: 20,
   marginLeft: 14,
 };

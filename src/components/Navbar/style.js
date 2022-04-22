@@ -1,6 +1,6 @@
 export const wrapperStyle = {
   width: "100%",
-  height: 100,
+  height: 80,
   backgroundColor: "white",
   display: "flex",
   flexDirection: "row",
@@ -9,12 +9,12 @@ export const wrapperStyle = {
 };
 
 export const cartLogoStyle = {
-  width: 40,
-  height: 40,
+  width: 30,
+  height: 30,
   marginRight: 40,
 };
 
 export const userLogoStyle = {
-  width: 34,
-  height: 34,
+  width: 28,
+  height: 28,
 };

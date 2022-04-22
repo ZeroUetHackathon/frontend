@@ -24,8 +24,8 @@ export const itemInfoStyle = {
 };
 
 export const itemImageStyle = {
-  width: 130,
-  height: 130,
+  width: 120,
+  height: 120,
   borderTopLeftRadius: 10,
   borderBottomLeftRadius: 10,
 };

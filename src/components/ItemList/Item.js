@@ -14,9 +14,11 @@ function Item() {
       <img style={itemImageStyle} alt="product image" />
       <div style={itemInfoStyle}>
         <div>
-          <div className="product-name">Headline</div>
+          <div style={{ marginTop: -10 }} className="product-name">
+            Headline
+          </div>
           <div
-            style={{ marginTop: 20 }}
+            style={{ marginTop: 10 }}
             className="product-description overview"
           >
             Please add your content here. Keep it short and simple. And smile :)
@@ -48,7 +50,7 @@ function Item() {
               </div>
               <div
                 style={{ color: "#688275", marginLeft: 5 }}
-                className="product-sold"
+                className="product-price"
               >
                 sold
               </div>

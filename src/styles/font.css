@@ -15,7 +15,7 @@
 .login-title-1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 38px;
   color: white;
 }
 
@@ -29,7 +29,7 @@
 .login-field-title {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   color: white;
 }
 
@@ -43,7 +43,7 @@
 .forgot-password {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   color: white;
   text-decoration-line: underline;
 }
@@ -58,7 +58,7 @@
 .login-small-button {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 12px;
   color: white;
 }
 
@@ -72,23 +72,21 @@
 .product-name {
   font-family: "Source Code Pro", monospace;
   font-weight: 500;
-  line-height: 0px;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
 }
 
 .product-description {
   font-family: "Source Code Pro", monospace;
   font-weight: 400;
-  line-height: 17.6px;
-  font-size: 14px;
+  font-size: 12px;
   color: #666666;
 }
 
 .product-price {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   color: #e04e4e;
 }
 

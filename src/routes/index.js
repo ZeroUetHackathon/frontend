@@ -45,6 +45,10 @@ function Router() {
           element: <MainPage />,
         },
         {
+          path: "verify-shop",
+          element: <VerifyShopPage />,
+        },
+        {
           path: "product/:id",
           element: <Product />,
         },
@@ -53,9 +57,15 @@ function Router() {
   ]);
 }
 
+// auth
 const LoginPage = Loadable(lazy(() => import("../components/Login/Login")));
 const SignupPage = Loadable(lazy(() => import("../components/Signup/Signup")));
+
+// main
 const MainPage = Loadable(lazy(() => import("../pages/Home/Home")));
+const VerifyShopPage = Loadable(
+  lazy(() => import("../pages/VerifyShop/VeriShop"))
+);
 const Product = Loadable(
   lazy(() =>
     import("../components/Itemproperty/PicturesOfProduct/PicturesOfProduct")

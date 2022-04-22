@@ -14,8 +14,8 @@ function Map({ chosenProvince, setChosenProvince }) {
   const [currentProvince, setCurrentProvince] = useState("");
   useD3(
     () => {
-      let width = (window.innerWidth / 100) * 33,
-        height = (window.innerHeight / 100) * 75;
+      let width = (window.innerWidth / 100) * 31,
+        height = (window.innerHeight / 100) * 72;
       let active = d3.select(null);
       let zoomScale, zoomTranslate;
 
@@ -318,7 +318,7 @@ function Map({ chosenProvince, setChosenProvince }) {
         // Create a first guess for the projection
         //let center = d3.geo.centroid(json);
         let center = [106.34899620666437, 16.553160650957434];
-        let scale = height * 3;
+        let scale = height * 3.5;
         let offset = [width / 2, height / 2 - 25];
 
         // The projection function takes a location [longitude, latitude]

@@ -11,11 +11,15 @@ import { wrapperStyle, cartLogoStyle, userLogoStyle } from "./style";
 import shoppingCartLogo from "../../assets/images/shopping-cart.png";
 import userLogo from "../../assets/images/user.png";
 
-function Navbar() {
+function Navbar({ isInShop }) {
   return (
     <div style={wrapperStyle}>
       <div className="nav-title">Zero rottens</div>
-      <SearchBar />
+      {isInShop ? (
+        <div className="nav-title">Register to be a Zero rottens Seller</div>
+      ) : (
+        <SearchBar />
+      )}
       <div>
         <Link to="shopping-cart">
           <img
