@@ -16,7 +16,9 @@ function Navbar({ isInShop }) {
     <div style={wrapperStyle}>
       <div className="nav-title">Zero rottens</div>
       {isInShop ? (
-        <div className="nav-title">Register to be a Zero rottens Seller</div>
+        <div style={{ color: "#315343", fontSize: 24 }} className="nav-title">
+          Register to be a Zero rottens Seller
+        </div>
       ) : (
         <SearchBar />
       )}

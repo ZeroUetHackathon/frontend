@@ -1,10 +1,13 @@
+const paddingWidth = (window.innerWidth / 100) * 7;
+
 export const wrapperStyle = {
   width: "100%",
   height: 80,
+  padding: `20px ${paddingWidth}px`,
   backgroundColor: "white",
   display: "flex",
   flexDirection: "row",
-  justifyContent: "space-evenly",
+  justifyContent: "space-between",
   alignItems: "center",
 };
 

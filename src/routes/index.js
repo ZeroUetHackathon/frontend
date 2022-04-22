@@ -64,7 +64,7 @@ const SignupPage = Loadable(lazy(() => import("../components/Signup/Signup")));
 // main
 const MainPage = Loadable(lazy(() => import("../pages/Home/Home")));
 const VerifyShopPage = Loadable(
-  lazy(() => import("../pages/VerifyShop/VeriShop"))
+  lazy(() => import("../pages/VerifyShop/VerifyShop"))
 );
 const Product = Loadable(
   lazy(() =>

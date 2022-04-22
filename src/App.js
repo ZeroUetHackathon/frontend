@@ -28,7 +28,7 @@ function App() {
     }
   }, []);
 
-  const paddingWidth = (window.innerWidth / 100) * 5;
+  const paddingWidth = (window.innerWidth / 100) * 7;
   return (
     <div
       className="App"

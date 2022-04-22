@@ -1,5 +1,8 @@
 import React from "react";
 
+// components
+import LineDivider from "../LineDivider/LineDivider";
+
 // styles
 import {
   itemWrapperStyle,
@@ -26,15 +29,7 @@ function Item() {
         </div>
 
         <div>
-          {/* line divider */}
-          <div
-            style={{
-              height: 0,
-              width: "100%",
-              border: "1px solid #E6E6E6",
-              marginTop: 20,
-            }}
-          />
+          <LineDivider />
 
           <div style={itemSaleInfoStyle}>
             <div className="product-price">19.000 VND / kg</div>
