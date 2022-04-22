@@ -6,8 +6,10 @@ import Navbar from "./components/Navbar/Navbar";
 // css
 import "./App.css";
 import "./styles/font.css";
+import { padding } from "@mui/system";
 
 function App() {
+  const paddingWidth = (window.innerWidth / 100) * 5;
   return (
     <div
       className="App"
@@ -15,7 +17,15 @@ function App() {
     >
       <BrowserRouter>
         <Navbar />
-        <Router />
+        <div
+          style={{
+            maxWidth: "100vw",
+            padding: `0px ${paddingWidth}px`,
+            backgroundColor: "#E6EBE6",
+          }}
+        >
+          <Router />
+        </div>
       </BrowserRouter>
     </div>
   );

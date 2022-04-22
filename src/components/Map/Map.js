@@ -9,12 +9,13 @@ import { useD3 } from "../../hooks/useD3";
 // styles
 import { canvasStyle } from "./style";
 import "../../styles/map.css";
-function Map() {
+function Map({ chosenProvince, setChosenProvince }) {
   const [calledUseD3, setCalledUseD3] = useState(false);
+  const [currentProvince, setCurrentProvince] = useState("");
   useD3(
     () => {
-      let width = window.innerWidth / 3,
-        height = window.innerHeight / 1.25;
+      let width = (window.innerWidth / 100) * 33,
+        height = (window.innerHeight / 100) * 75;
       let active = d3.select(null);
       let zoomScale, zoomTranslate;
 
@@ -317,8 +318,8 @@ function Map() {
         // Create a first guess for the projection
         //let center = d3.geo.centroid(json);
         let center = [106.34899620666437, 16.553160650957434];
-        let scale = 2500;
-        let offset = [width / 2, height / 2 - 50];
+        let scale = height * 3;
+        let offset = [width / 2, height / 2 - 25];
 
         // The projection function takes a location [longitude, latitude]
         // and returns a Cartesian coordinates [x,y] (in pixels).
@@ -670,7 +671,7 @@ function Map() {
       function reset() {
         active.classed("active", false);
         active = d3.select(null);
-
+        setChosenProvince("");
         zoomScale = zoomScale || 1;
         zoomTranslate = zoomTranslate || [0, 0];
 
@@ -681,6 +682,10 @@ function Map() {
       }
 
       function clicked(d) {
+        const clickedProvince = d.properties.name;
+        // console.log(clickedProvince, currentProvince);
+        setChosenProvince(clickedProvince);
+
         if (active.node() === this) {
           return reset();
         }
@@ -726,7 +731,7 @@ function Map() {
           <div style={{ clear: "both" }}></div>
         </div>
       </div> */}
-      <div id="info">
+      <div>
         {/* <div id="header-info">
           <span>
             Area, population and population density in 2011 by province
