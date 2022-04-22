@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { useRoutes } from "react-router-dom";
 import Loading from "../components/Loading/Loading";
+import Login from "../components/Login/Login";
 
 const Loadable = (Component) => (props) => {
   return (
@@ -19,7 +20,11 @@ function Router() {
       children: [
         {
           path: "login",
-          element: <AuthPage />,
+          element: <LoginPage />,
+        },
+        {
+          path: "signup",
+          element: <SignupPage />,
         },
         {
           path: "forgot-password",
@@ -40,16 +45,21 @@ function Router() {
           element: <MainPage />,
         },
         {
-          path:"product/:id",
-          element:<Product/>
-        }
+          path: "product/:id",
+          element: <Product />,
+        },
       ],
     },
   ]);
 }
 
-const AuthPage = Loadable(lazy(() => import("../pages/Auth/Auth")));
+const LoginPage = Loadable(lazy(() => import("../components/Login/Login")));
+const SignupPage = Loadable(lazy(() => import("../components/Signup/Signup")));
 const MainPage = Loadable(lazy(() => import("../pages/Home/Home")));
-const Product = Loadable(lazy(() => import("../components/Itemproperty/PicturesOfProduct/PicturesOfProduct")));
+const Product = Loadable(
+  lazy(() =>
+    import("../components/Itemproperty/PicturesOfProduct/PicturesOfProduct")
+  )
+);
 
 export default Router;
