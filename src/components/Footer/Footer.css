@@ -2,9 +2,15 @@
   box-sizing: border-box;
 }
 .big-wrapper-div {
-  width: 100%;
-  height: 414px;
-  background-color: white;
+    width: 100%;
+    height: 414px;
+    background-color: white;
+    bottom: 0px;
+    /* top: 3142px; */
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
 }
 .small-wrapper-div {
     position: absolute;
@@ -90,7 +96,7 @@
     vertical-align: top;
     font-size: 14px;
     font-family: Montserrat;
-    letter-spacing: 0.20000000298023224px;
+    letter-spacing: 0.2px;
     line-height: 20px;
     color: #727272;
   }
@@ -178,4 +184,68 @@
     font-weight: Bold;
     font-size: 24px;
     opacity: 1;
+  }
+
+  .wrapper-under {
+    bottom: 0px;
+    width: 100%;
+    height: 76px;
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+  }
+  .container-under {
+
+
+    bottom: 0px;
+    width: 73%;
+    height: 74px;
+    opacity: 1;
+    position: absolute;
+    left: 275px;
+    overflow: hidden;
+  }
+  .row-under {
+    width: 513px;
+    height: 24px;
+    opacity: 1;
+    position: absolute;
+    bottom: 25px;
+    left: 460px;
+    overflow: hidden;
+  }
+  .col-md-3-under {
+    width: 513px;
+    height: 24px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .paragraph-under {
+    width: 366px;
+    color: rgba(114, 114, 114, 1);
+    position: absolute;
+    top: 0px;
+    left: 78px;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .background {
+    width: 100%;
+    height: 414px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
   }

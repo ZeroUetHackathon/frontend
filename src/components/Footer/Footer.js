@@ -1,14 +1,14 @@
 import "./Footer.css"
 import socialmedia from "../../assets/images/social-media.png";
-
+import backgroundFooter from "../../assets/images/backgroundFooter.png"
 const Footer = () => {
   return (
     <div className="big-wrapper-div">
         <div className="small-wrapper-div">
             <div className="container">
-            <div class="row">
+            <div class="row"> 
           <div class="col-md-3">
-            <div class="h3 text-big">Get In Touch</div>
+            <div class="h3-1 text-big">Get In Touch</div>
             <p class="paragraph">the quick fox jumps over the <br />lazy dog</p>
             <img class="social-media" src={socialmedia} />
           </div>
@@ -42,6 +42,20 @@ const Footer = () => {
         </div>
             </div>
         </div>
+        <div class="wrapper-under">
+      <div class="container-under">
+        <div class="row-under">
+          <div class="col-md-3-under">
+            <div class="paragraph-under">
+              Made With Love By Figmaland All Right Reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="background">
+    <img src={backgroundFooter}/>
+    </div>
     </div>
   );
 };

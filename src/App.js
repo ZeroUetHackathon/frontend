@@ -16,13 +16,13 @@ function App() {
       style={{ width: "100%", minHeight: "100vh", flexDirection: "column" }}
     >
       
-       {/* <BrowserRouter> */}
-        {/* <Navbar /> */}
-        {/* <Router /> */}
+       <BrowserRouter> 
+        <Navbar />
+         <Router />
         <Footer/>
-        {/* <Login/>
-        <Signup/> */}
-      {/* </BrowserRouter>  */}
+        {/* <Login/> */}
+        {/* <Signup/>  */}
+      </BrowserRouter> 
       
     </div>
   );
