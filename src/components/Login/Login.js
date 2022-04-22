@@ -4,6 +4,7 @@ import google from "../../assets/images/google.png"
 
 const Login = () => {
   return (
+    <div className="background">
     <div className="v9_242">
       <div className="v9_243"></div>
       <span className="v9_244">Sign In</span>
@@ -35,6 +36,7 @@ const Login = () => {
           <span class="v10_309">Continue with Google</span>
         </button>
       </div>
+    </div>
     </div>
   );
 };

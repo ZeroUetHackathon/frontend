@@ -1,15 +1,14 @@
 * {
     box-sizing: border-box;
 }
-
-body {
-    font-size: 14px;
+.background {
     background: url("https://i.pinimg.com/originals/58/5c/5b/585c5b316bce5a5a6e26f85e17b50e78.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 100%;
+    width: 100vw;
+  height: 100vh;
 }
-
 .v9_260 {
+    
     width: 70%;
     height: 791px;
     /* background: linear-gradient(rgba(255, 255, 255, 0.2199999988079071), rgba(255, 255, 255, 0.20000000298023224)); */

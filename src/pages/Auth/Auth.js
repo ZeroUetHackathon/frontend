@@ -1,10 +1,9 @@
 import React from "react";
-import Navigation from "../../components/Itemproperty/Navigation/Navigation";
-import Signup from "../../components/Signup/Signup";
+import Login from "../../components/Login/Login";
 
 function Auth() {
   return (
-    <Signup/>
+    <Login/>
   );
 }
 
