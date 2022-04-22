@@ -7,4 +7,7 @@ export const styleButton = {
     border: "2px solid rgba(104, 130, 117, 0.5)",
     box_sizing: "border-box",
     border_radius: "10px",
+    '&:hover': {
+        cursor:"pointer"
+    }
 }
