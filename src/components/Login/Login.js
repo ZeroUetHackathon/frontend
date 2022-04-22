@@ -12,7 +12,8 @@ const Login = () => {
       <span className="v9_247">Password</span>
       <span className="v9_248 forgot-password">Forgotten Password</span>
       <div className="v9_249">
-        <input className="v9_250 login-field-text"></input>
+        <input className="v9_250 login-field-text">
+        </input>
       </div>
       <div className="v9_252">
         <input className="v9_253 login-field-text"></input>
@@ -20,7 +21,7 @@ const Login = () => {
       <button className="v9_255 login-big-button">
         Create account
       </button>
-      <button className="v9_256 login-small-button ">Login Now</button>
+      <button className="v9_256 login-small-button">Login Now</button>
       <p class="or">- OR -</p>
       <div class="v10_307">
         <button class="v10_308">

@@ -3,9 +3,20 @@
   }
   body {
     font-size: 14px;
-    background: url("https://i.pinimg.com/originals/58/5c/5b/585c5b316bce5a5a6e26f85e17b50e78.jpg") no-repeat center center fixed;
+    background: #fff,url("https://i.pinimg.com/originals/58/5c/5b/585c5b316bce5a5a6e26f85e17b50e78.jpg")  no-repeat center center fixed ;
     background-size: cover;
     height: 100%;
+  }
+
+  .background {
+    /* position: absolute; */
+    width: 1112px;
+    height: 100%;
+    left: 104px;
+
+    background: linear-gradient(116.52deg, rgba(255, 255, 255, 0.22) -0.3%, rgba(255, 255, 255, 0.2) 81.34%);
+
+
   }
   .v9_242 {
     width: 70%;
@@ -18,10 +29,7 @@
     top: 0px;
     left: 250px;
     /* right: 1000px; */
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border: 20px;
     overflow: hidden;
   }
   .v9_243 {
@@ -121,11 +129,8 @@
     top: 0px;
     left: 0px;
     border: 2px solid linear-gradient(rgba(255,255,255,0.41999998688697815), rgba(255,255,255,0.4699999988079071));
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     overflow: hidden;
+
   }
   .v9_251 {
     width: 190px;
@@ -187,6 +192,12 @@
     position: absolute;
     top: 402px;
     left: 664px;
+    border: 5px;
+
+  }
+  .v9_255:hover{
+    opacity: 0.8;
+    cursor: pointer;
   }
   .v9_256 {
     width: 107px;
@@ -196,11 +207,12 @@
     position: absolute;
     top: 517px;
     left: 93px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border: 5px;
     overflow: hidden;
+  }
+  .v9_256:hover{
+    cursor: pointer;
+    opacity: 0.8;
   }
   .v9_257 {
     /* width: 74px; */
@@ -256,11 +268,18 @@
     height: 40px;
     opacity: 1;
     position: absolute;
+    border: 1px solid #E8E8E8;
 
+    border-radius: 6px;
     top: 0px;
     left: 0px;
     
     overflow: hidden;
+  }
+
+  .v10_308:hover {
+    cursor: pointer;
+    opacity: 0.5;
   }
 
   .v10_309 {

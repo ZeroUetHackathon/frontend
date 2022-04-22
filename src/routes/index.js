@@ -39,6 +39,10 @@ function Router() {
           path: "/",
           element: <MainPage />,
         },
+        {
+          path:"product/:id",
+          element:<Product/>
+        }
       ],
     },
   ]);
@@ -46,5 +50,6 @@ function Router() {
 
 const AuthPage = Loadable(lazy(() => import("../pages/Auth/Auth")));
 const MainPage = Loadable(lazy(() => import("../pages/Home/Home")));
+const Product = Loadable(lazy(() => import("../components/Itemproperty/PicturesOfProduct/PicturesOfProduct")));
 
 export default Router;
