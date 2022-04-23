@@ -1,86 +1,82 @@
+
 export const wrapper = {
-    position:"absolute",
-    text_align:"center",
-    top:"555.17px",
+    textAlign:"center",
+    display: "flex",
+  justifyContent: "center",
     width:"100%",
-    bottom:"0px"
+    display:"flex",
+    flexDirection:"row",
+    padding:"24px",
+    height:"126px",
+    justifyContent:"space-between",
+    alignItems:"center",
+    borderBottom:"40px"
 }
 export const Group_10 = {
-    backgroundColor:"blue",
-    position: "absolute",
     width: "71px",
     height: "28px",
-    left: "28px",
-    bottom: "35px",
 }
 
 export const chervon_right = {
-    position: "absolute",
     width: "28px",
     height: "28px",
-    left: "241px",
-    top: "708px",
+   
 }
 
 export const Vector = {
-    position: "absolute",
-    left: "54.17%",
-    right: "25%",
-    top: "29.17%",
-    bottom: "29.17%",
-
-    border: "2px solid #305241",
+    // left: "54.17%",
+    // right: "25%",
+    // top: "29.17%",
+    // bottom: "29.17%",
 }
 export const chervon_left = {
-    position: "absolute",
     width: "28px",
     height: "28px",
-    left: "198px",
-    top: "708px",
-
 }
 
 export const styleButton = {
-    position: "absolute",
     width: "120px",
     height: "48px",
-    left: "610px",
-    bottom: "35px",
-    // border: "2px solid rgba(104, 130, 117, 0.5)",
-    // box_sizing: "border-box",
-    // border_radius: "10px",
+    border: "2px solid rgba(104, 130, 117, 0.5)",
+    boxSizing: "border-box",
+    borderRadius: "10px",
+    display:"flex",
+    flexDirection:"row",
+    justifyContent: "space-around",
+    alignItems:"center"
 
 }
 export const styleButtonDiv = {
-    position: "absolute",
     width: "120px",
     height: "48px",
     left: "610px",
     bottom: "35px",
     border: "2px solid rgba(104, 130, 117, 0.5)",
-    box_sizing: "border-box",
-    border_radius: "10px",
+    boxSizing: "border-box",
+    borderRadius: "10px",
 
 }
 
-export const styleCameraIcon = {
-    position: "absolute",
+export const styleIcon = {
     width: "24px",
     height: "24px",
-    left: "16px",
-    top: "12px",
 }
 
 export const styleNumberPic = {
-    position: "absolute",
     width: "46px",
     height: "30px",
-    right: "6px",
-    top: "9px",
-    font_family: "Poppins",
-    font_style: "normal",
-    font_weight: "500",
-    font_size: "20px",
-    line_height: "30px",
+    fontFamily: "Poppins",
+    fontStyle: "normal",
+    fontWeight: "500",
+    fontSize: "20px",
+    lineHeight: "30px",
     color: "#688275",
+}
+
+export const buttonWrapper = {
+    display:"flex",
+    flexDirection:"row",
+    alignItems:"center",
+    justifyContent: "space-between",
+
 }
