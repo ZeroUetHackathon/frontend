@@ -5,3 +5,9 @@ button:hover {
 a:hover {
   cursor: pointer;
 }
+
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 50px;
+}

@@ -32,7 +32,7 @@ function Navbar({ isInShop }) {
         <Link to="/">
           <img style={homeLogoStyle} src={home} alt="home" />
         </Link>
-        <Link to="shopping-cart">
+        <Link to="shop/12">
           <img
             style={cartLogoStyle}
             src={shoppingCartLogo}

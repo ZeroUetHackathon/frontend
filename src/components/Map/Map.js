@@ -682,7 +682,7 @@ function Map({ chosenProvince, setChosenProvince }) {
       }
 
       function clicked(d) {
-        const clickedProvince = d.properties.name;
+        const clickedProvince = d.properties.iso;
         // console.log(clickedProvince, currentProvince);
         setChosenProvince(clickedProvince);
         console.log(d);

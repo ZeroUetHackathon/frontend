@@ -11,6 +11,10 @@ import { sidemenuWrapperStyle } from "./style";
 
 function SideMenu() {
   const [chosenValues, setChosenValues] = useState(["", ""]);
+  const dropdownOptions = [
+    ["Red meat", "White meat", "Vegetables"],
+    ["Price", "Rating"],
+  ];
   const dropdownPlaceholders = ["Category", "Sort By"];
   const buttonLabels = ["On sale", "In stock"];
   return (
@@ -23,7 +27,7 @@ function SideMenu() {
         {dropdownPlaceholders.map((placeholder, index) => {
           return (
             <Dropdown
-              options={[]}
+              options={dropdownOptions[index]}
               key={index}
               value={chosenValues[index]}
               placeholder={placeholder}

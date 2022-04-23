@@ -11,14 +11,14 @@ import {
   itemSaleInfoStyle,
 } from "./style";
 
-function Item({ itemInfo }) {
+function Item({ itemInfo, product }) {
   return (
     <div style={itemWrapperStyle}>
-      <img style={itemImageStyle} alt="product image" />
+      <img style={itemImageStyle} src={product.photos[0]} alt="product image" />
       <div style={itemInfoStyle}>
         <div>
           <div style={{ marginTop: -10 }} className="product-name">
-            Headline
+            {product.name}
           </div>
           <div
             style={{ marginTop: 10 }}
@@ -32,7 +32,7 @@ function Item({ itemInfo }) {
           <LineDivider />
 
           <div style={itemSaleInfoStyle}>
-            <div className="product-price">19.000 VND / kg</div>
+            <div className="product-price">{`${product.sale[0].price} VND / kg`}</div>
             <div style={{ display: "flex", flexDirection: "row" }}>
               <div
                 className="product-description"
@@ -41,7 +41,7 @@ function Item({ itemInfo }) {
                 |
               </div>
               <div style={{ color: "black" }} className="product-price">
-                6.9k
+                {product.sale[0].sold}
               </div>
               <div
                 style={{ color: "#688275", marginLeft: 5 }}

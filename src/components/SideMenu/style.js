@@ -1,6 +1,6 @@
 export const sidemenuWrapperStyle = {
   borderRight: "1px solid rgba(0, 0, 0, 0.3)",
-  width: "22vw",
+  width: "22%",
   padding: "20px 30px",
   display: "flex",
   flexDirection: "column",

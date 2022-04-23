@@ -3,7 +3,7 @@ import React, { useRef, useState, useEffect } from "react";
 // styles
 import { itemWrapperStyle } from "./style";
 
-function ShopItem() {
+function ShopItem({ img }) {
   const [width, setWidth] = useState(0);
   const ref = useRef(null);
 
@@ -17,11 +17,16 @@ function ShopItem() {
   return (
     <div ref={ref} style={itemWrapperStyle}>
       <img
-        style={{ width: width - 10, height: width - 10, borderRadius: 5 }}
+        src={img}
+        style={{ width: width - 20, height: width - 10, borderRadius: 5 }}
         alt="item image"
       />
-      <div className="product-name">Lira earrings</div>
-      <div className="product-price">$17.90</div>
+      <div style={{ marginTop: 20 }} className="product-name">
+        Lira earrings
+      </div>
+      <div style={{ marginTop: 20 }} className="product-price">
+        $17.90
+      </div>
     </div>
   );
 }

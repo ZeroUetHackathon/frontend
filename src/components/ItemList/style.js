@@ -1,5 +1,5 @@
 export const itemListWrapperStyle = {
-  height: "100vh" - 130,
+  height: "76vh",
   marginTop: 10,
   marginBottom: 50,
   width: "100%" - 50,
@@ -10,6 +10,7 @@ export const itemListWrapperStyle = {
 };
 
 export const itemWrapperStyle = {
+  marginBottom: 20,
   borderRadius: 10,
   border: "1px solid rgba(104, 130, 117, 0.5)",
   display: "flex",

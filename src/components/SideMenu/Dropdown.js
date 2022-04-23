@@ -22,7 +22,7 @@ function Dropdown({ options, key, value, placeholder }) {
 
   const DropdownWindow = () => {
     return (
-      <div style={{ ...dropdownWindowStyle, width: outerWidth }}>
+      <div style={{ ...dropdownWindowStyle, width: outerWidth, zIndex: 100 }}>
         {options.map((option, index) => {
           return (
             <a
