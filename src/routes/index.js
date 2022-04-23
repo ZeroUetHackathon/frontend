@@ -68,7 +68,11 @@ const VerifyShopPage = Loadable(
 );
 const Product = Loadable(
   lazy(() =>
-    import("../components/Itemproperty/PicturesOfProduct/PicturesOfProduct")
+    // import("../components/Itemproperty/PicturesOfProduct/PicturesOfProduct")
+    // import("../components/Itemproperty/Company/Company")
+
+    import("../pages/Itemproperty/Itemproperty")
+
   )
 );
 

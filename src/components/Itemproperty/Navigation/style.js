@@ -1,5 +1,6 @@
 export const wrapper = {
-    position: "absolute",
+    display:"flex",
+    flexDirection:"row",
     width: "25px",
     height: "189px",
     left: "205px",
@@ -7,7 +8,6 @@ export const wrapper = {
 }
 
 export const navi_1 = {
-    position: "absolute",
     color: "#2F5241",
     height: "25px",
     width: "46px",
@@ -23,7 +23,6 @@ export const navi_1 = {
 }
 
 export const chervon_right = {
-    position: "absolute",
     width: "24px",
     height: "24px",
     left: "251px",
@@ -35,11 +34,13 @@ export const vector = {
     right: "37.5%",
     top: "25%",
     bottom: "25%",
+    // margin : "9px"
     // border: "2px solid #2F5241",
+    marginLeft:"9px",
+    marginRight:"9px"
 }
 
 export const navi_2 = {
-    position: "absolute",
     width: "119px",
     height: "25px",
     left: "275px",
