@@ -685,7 +685,7 @@ function Map({ chosenProvince, setChosenProvince }) {
         const clickedProvince = d.properties.name;
         // console.log(clickedProvince, currentProvince);
         setChosenProvince(clickedProvince);
-
+        console.log(d);
         if (active.node() === this) {
           return reset();
         }

@@ -8,6 +8,7 @@ function LineDivider() {
         width: "100%",
         border: "1px solid #E6E6E6",
         marginTop: 20,
+        marginBottom: 20,
       }}
     />
   );

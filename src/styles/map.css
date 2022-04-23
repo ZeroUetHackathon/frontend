@@ -122,6 +122,12 @@ h3 {
   font: 22px "oswaldregular";
 }
 
+#map-canvas {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 50px;
+}
+
 #info {
   height: 90px;
 }

@@ -39,7 +39,7 @@ function App() {
         <div
           style={{
             maxWidth: "100vw",
-            padding: !inAuth && `20px ${paddingWidth}px`,
+            padding: !inAuth && `50px ${paddingWidth}px`,
             backgroundColor: "#E6EBE6",
           }}
         >

@@ -1,0 +1,1037 @@
+[
+  {
+    "arcs": [[[0, 1, 2]], [[3]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Đà Nẵng",
+      "iso": "VN-DN",
+      "hasc": "VN.DA",
+      "types": "Thành phố",
+      "alt_types": "Municipality|City",
+      "capital": "Đà Nẵng",
+      "region": 5
+    }
+  },
+  {
+    "arcs": [[[4]], [[5]], [[6, 7, 8, 9, 10, 11, 12, 13, 14]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Đồng Nai",
+      "iso": "VN-39",
+      "hasc": "VN.DN",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Biên Hòa",
+      "region": 7
+    }
+  },
+  {
+    "arcs": [[15, 16, 17, 18, 19, 20]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Đồng Tháp",
+      "iso": "VN-45",
+      "hasc": "VN.DT",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Cao Lãnh",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[21, 22, 23, 24]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Đắk Nông",
+      "iso": "VN-72",
+      "hasc": "VN.DO",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Gia Nghĩa",
+      "region": 6
+    }
+  },
+  {
+    "arcs": [[25, 26, 27, -25, 28, 29]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Đắk Lắk",
+      "iso": "VN-33",
+      "hasc": "VN.DC",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Buôn Ma Thuột",
+      "region": 6
+    }
+  },
+  {
+    "arcs": [[30, 31, 32]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Điện Biên",
+      "iso": "VN-71",
+      "hasc": "VN.DB",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Điện Biên Phủ",
+      "region": 1
+    }
+  },
+  {
+    "arcs": [[-20, 33, 34, 35]],
+    "type": "Polygon",
+    "properties": {
+      "name": "An Giang",
+      "iso": "VN-44",
+      "hasc": "VN.AG",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Long Xuyên",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [
+      [[36]],
+      [[37]],
+      [[38]],
+      [[39]],
+      [[40]],
+      [[41]],
+      [[42]],
+      [[43]],
+      [[44]],
+      [[45]],
+      [[46]],
+      [[47]],
+      [[48, 49, -8]]
+    ],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Bà Rịa–Vũng Tàu",
+      "iso": "VN-43",
+      "hasc": "VN.BV",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Vũng Tàu",
+      "region": 7
+    }
+  },
+  {
+    "arcs": [[[50]], [[51]], [[52, 53, 54, 55]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Bình Định",
+      "iso": "VN-31",
+      "hasc": "VN.BD",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Quy Nhơn",
+      "region": 5
+    }
+  },
+  {
+    "arcs": [[-13, 56, 57, 58]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Bình Dương",
+      "iso": "VN-57",
+      "hasc": "VN.BI",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Thủ Dầu Một",
+      "region": 7
+    }
+  },
+  {
+    "arcs": [[-23, 59, -14, -59, 60, 61]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Bình Phước",
+      "iso": "VN-58",
+      "hasc": "VN.BP",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Đồng Xoài",
+      "region": 7
+    }
+  },
+  {
+    "arcs": [[[62]], [[63]], [[64]], [[65, -49, -7, 66, 67]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Bình Thuận",
+      "iso": "VN-40",
+      "hasc": "VN.BU",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Phan Thiết",
+      "region": 5
+    }
+  },
+  {
+    "arcs": [[68, 69, 70, 71, 72]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Bạc Liêu",
+      "iso": "VN-55",
+      "hasc": "VN.BL",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Bạc Liêu",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[73, 74, 75, 76, 77, 78]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Bắc Giang",
+      "iso": "VN-54",
+      "hasc": "VN.BG",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Bắc Giang",
+      "region": 2
+    }
+  },
+  {
+    "arcs": [[79, 80, 81, 82]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Bắc Kạn",
+      "iso": "VN-53",
+      "hasc": "VN.BK",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Bắc Kạn",
+      "region": 2
+    }
+  },
+  {
+    "arcs": [[83, 84, 85, -77]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Bắc Ninh",
+      "iso": "VN-56",
+      "hasc": "VN.BN",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Bắc Ninh",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[86, 87, 88, 89]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Bến Tre",
+      "iso": "VN-50",
+      "hasc": "VN.BR",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Bến Tre",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[[90]], [[91]], [[92]], [[93]], [[-72, 94, 95]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Cà Mau",
+      "iso": "VN-59",
+      "hasc": "VN.CM",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Cà Mau",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[96, -83, 97, 98, 99]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Cao Bằng",
+      "iso": "VN-04",
+      "hasc": "VN.CB",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Cao Bằng",
+      "region": 2
+    }
+  },
+  {
+    "arcs": [[-19, 100, 101, 102, -34]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Cần Thơ",
+      "iso": "VN-CT",
+      "hasc": "VN.CN",
+      "types": "Thành phố",
+      "alt_types": "Municipality|City",
+      "capital": "Cần Thơ",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[103, -55, 104, -30, 105, 106]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Gia Lai",
+      "iso": "VN-30",
+      "hasc": "VN.GL",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Pleiku",
+      "region": 6
+    }
+  },
+  {
+    "arcs": [[-99, 107, 108, 109, 110]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Hà Giang",
+      "iso": "VN-03",
+      "hasc": "VN.HG",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Hà Giang",
+      "region": 2
+    }
+  },
+  {
+    "arcs": [[-78, -86, 111, 112, 113, 114, 115, 116], [117], [118], [119]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Hà Nội",
+      "iso": "VN-HN",
+      "hasc": "VN.HI",
+      "types": "Thành phố|Thủ đô",
+      "alt_types": "Municipality|City|Capital",
+      "capital": "Hà Nội",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[120, 121, 122, 123, -113, 124]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Hà Nam",
+      "iso": "VN-63",
+      "hasc": "VN.HM",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Phủ Lý",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[[125]], [[126, 127, 128, 129]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Hà Tĩnh",
+      "iso": "VN-23",
+      "hasc": "VN.HT",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Hà Tĩnh",
+      "region": 4
+    }
+  },
+  {
+    "arcs": [
+      [[130]],
+      [[131]],
+      [[132]],
+      [[133]],
+      [[134]],
+      [[135]],
+      [[136]],
+      [[137]],
+      [[138, -10]],
+      [[139]],
+      [[-12, 140, 141, 142, 143, -57]]
+    ],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Hồ Chí Minh",
+      "iso": "VN-SG",
+      "hasc": "VN.HC",
+      "types": "Thành phố",
+      "alt_types": "Municipality|City",
+      "capital": "Hồ Chí Minh",
+      "region": 7
+    }
+  },
+  {
+    "arcs": [[[-120]], [[-119]], [[-114, -124, 144, 145, 146, 147]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Hòa Bình",
+      "iso": "VN-14",
+      "hasc": "VN.HO",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Hòa Bình",
+      "region": 1
+    }
+  },
+  {
+    "arcs": [[148, 149, -125, -112, -85]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Hưng Yên",
+      "iso": "VN-66",
+      "hasc": "VN.HY",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Hưng Yên",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[150, 151, 152, -149, -84, -76]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Hải Dương",
+      "iso": "VN-61",
+      "hasc": "VN.HD",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Hải Dương",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [
+      [[153]],
+      [[154]],
+      [[155]],
+      [[156]],
+      [[157]],
+      [[158]],
+      [[159]],
+      [[160]],
+      [[161]],
+      [[162]],
+      [[163]],
+      [[164]],
+      [[165]],
+      [[166, 167, -152, 168]]
+    ],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Hải Phòng",
+      "iso": "VN-HP",
+      "hasc": "VN.HP",
+      "types": "Thành phố",
+      "alt_types": "Municipality|City",
+      "capital": "Hải Phòng",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[169, 170, -69, 171, -102]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Hậu Giang",
+      "iso": "VN-73",
+      "hasc": "VN.HU",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Vị Thanh",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [
+      [[172]],
+      [[173]],
+      [[174]],
+      [[175]],
+      [[176]],
+      [[177]],
+      [[178]],
+      [[179]],
+      [[180]],
+      [[181]],
+      [[182]],
+      [[183]],
+      [[184]],
+      [[185]],
+      [[186]],
+      [[187, 188, 189, -27, 190]]
+    ],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Khánh Hòa",
+      "iso": "VN-34",
+      "hasc": "VN.KH",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Nha Trang",
+      "region": 5
+    }
+  },
+  {
+    "arcs": [
+      [[191]],
+      [[192]],
+      [[193]],
+      [[194]],
+      [[195]],
+      [[196]],
+      [[197]],
+      [[198]],
+      [[199]],
+      [[200]],
+      [[201]],
+      [[202]],
+      [[203]],
+      [[204]],
+      [[205]],
+      [[206]],
+      [[207]],
+      [[208]],
+      [[209]],
+      [[210]],
+      [[211]],
+      [[-35, -103, -172, -73, -96, 212]],
+      [[213]],
+      [[214]],
+      [[215]]
+    ],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Kiên Giang",
+      "iso": "VN-47",
+      "hasc": "VN.KG",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Rạch Giá",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[216, -107, 217, 218]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Kon Tum",
+      "iso": "VN-28",
+      "hasc": "VN.KT",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Kon Tum",
+      "region": 6
+    }
+  },
+  {
+    "arcs": [[-110, 219, 220, 221]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Lào Cai",
+      "iso": "VN-02",
+      "hasc": "VN.LO",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Lào Cai",
+      "region": 1
+    }
+  },
+  {
+    "arcs": [[222, -67, -15, -60, -22, -28, -190]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Lâm Đồng",
+      "iso": "VN-35",
+      "hasc": "VN.LD",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Đà Lạt",
+      "region": 6
+    }
+  },
+  {
+    "arcs": [[-221, 223, 224, -33, 225]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Lai Châu",
+      "iso": "VN-01",
+      "hasc": "VN.LI",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Lai Châu",
+      "region": 1
+    }
+  },
+  {
+    "arcs": [[226, 227, -74, 228, -80, -97]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Lạng Sơn",
+      "iso": "VN-09",
+      "hasc": "VN.LS",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Lạng Sơn",
+      "region": 2
+    }
+  },
+  {
+    "arcs": [[229, -143, 230, -16, 231]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Long An",
+      "iso": "VN-41",
+      "hasc": "VN.LA",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Tân An",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[[232]], [[233, 234, 235, -122]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Nam Định",
+      "iso": "VN-67",
+      "hasc": "VN.ND",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Nam Định",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[[236]], [[237, -129, 238, 239]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Nghệ An",
+      "iso": "VN-22",
+      "hasc": "VN.NA",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Vinh",
+      "region": 4
+    }
+  },
+  {
+    "arcs": [[-123, -236, 240, 241, -145]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Ninh Bình",
+      "iso": "VN-18",
+      "hasc": "VN.NB",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Ninh Bình",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[[242]], [[243, -68, -223, -189]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Ninh Thuận",
+      "iso": "VN-36",
+      "hasc": "VN.NT",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Phan Rang-Tháp Chàm",
+      "region": 5
+    }
+  },
+  {
+    "arcs": [[244, -115, -148, 245, 246, 247]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Phú Thọ",
+      "iso": "VN-68",
+      "hasc": "VN.PT",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Việt Trì",
+      "region": 2
+    }
+  },
+  {
+    "arcs": [[[248]], [[249]], [[250, -191, -26, -105, -54]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Phú Yên",
+      "iso": "VN-32",
+      "hasc": "VN.PY",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Tuy Hòa",
+      "region": 5
+    }
+  },
+  {
+    "arcs": [[[251]], [[252, 253, 254, -127]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Quảng Bình",
+      "iso": "VN-24",
+      "hasc": "VN.QB",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Đồng Hới",
+      "region": 4
+    }
+  },
+  {
+    "arcs": [
+      [[255]],
+      [[256]],
+      [[257]],
+      [[258]],
+      [[259]],
+      [[-2, 260, 261, -219, 262, 263]]
+    ],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Quảng Nam",
+      "iso": "VN-27",
+      "hasc": "VN.QM",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Tam Kỳ",
+      "region": 5
+    }
+  },
+  {
+    "arcs": [[[264]], [[-56, -104, -217, -262, 265]], [[266]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Quảng Ngãi",
+      "iso": "VN-29",
+      "hasc": "VN.QG",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Quảng Ngãi",
+      "region": 5
+    }
+  },
+  {
+    "arcs": [
+      [[267]],
+      [[268]],
+      [[269]],
+      [[270]],
+      [[271]],
+      [[272]],
+      [[273]],
+      [[274]],
+      [[275]],
+      [[276]],
+      [[277]],
+      [[278]],
+      [[279]],
+      [[280]],
+      [[281]],
+      [[282]],
+      [[283]],
+      [[284]],
+      [[285]],
+      [[286]],
+      [[287]],
+      [[288]],
+      [[289]],
+      [[290]],
+      [[291]],
+      [[292]],
+      [[293]],
+      [[294]],
+      [[295]],
+      [[296]],
+      [[297]],
+      [[298]],
+      [[299]],
+      [[300]],
+      [[301]],
+      [[302]],
+      [[303]],
+      [[304]],
+      [[305]],
+      [[306]],
+      [[307]],
+      [[308]],
+      [[309]],
+      [[310]],
+      [[311]],
+      [[312]],
+      [[313]],
+      [[314]],
+      [[315]],
+      [[316]],
+      [[317]],
+      [[318]],
+      [[319]],
+      [[320]],
+      [[321]],
+      [[322]],
+      [[323]],
+      [[324]],
+      [[325]],
+      [[326]],
+      [[327]],
+      [[328]],
+      [[329]],
+      [[330]],
+      [[331]],
+      [[332]],
+      [[333]],
+      [[334]],
+      [[335]],
+      [[336]],
+      [[337]],
+      [[338]],
+      [[339]],
+      [[340]],
+      [[341]],
+      [[342]],
+      [[343]],
+      [[344]],
+      [[345]],
+      [[346]],
+      [[347]],
+      [[348]],
+      [[349]],
+      [[350]],
+      [[351]],
+      [[352]],
+      [[353]],
+      [[354]],
+      [[355]],
+      [[356]],
+      [[357]],
+      [[358]],
+      [[359]],
+      [[360]],
+      [[361]],
+      [[362]],
+      [[363]],
+      [[364]],
+      [[365]],
+      [[366]],
+      [[367]],
+      [[368]],
+      [[369]],
+      [[370]],
+      [[371]],
+      [[372]],
+      [[373]],
+      [[374]],
+      [[375]],
+      [[376]],
+      [[377]],
+      [[378]],
+      [[379]],
+      [[380]],
+      [[381]],
+      [[382]],
+      [[383]],
+      [[384]],
+      [[385]],
+      [[386]],
+      [[387]],
+      [[388]],
+      [[389]],
+      [[-169, -151, -75, -228, 390]]
+    ],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Quảng Ninh",
+      "iso": "VN-13",
+      "hasc": "VN.QN",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Hạ Long",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[[391, 392, -254, 393]], [[394]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Quảng Trị",
+      "iso": "VN-25",
+      "hasc": "VN.QT",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Đông Hà",
+      "region": 4
+    }
+  },
+  {
+    "arcs": [[395, 396, -70, -171, 397]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Sóc Trăng",
+      "iso": "VN-52",
+      "hasc": "VN.ST",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Sóc Trăng",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[398, -246, -147, 399, 400, -31, -225]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Sơn La",
+      "iso": "VN-05",
+      "hasc": "VN.SL",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Sơn La",
+      "region": 1
+    }
+  },
+  {
+    "arcs": [[-61, -58, -144, -230, 401]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Tây Ninh",
+      "iso": "VN-37",
+      "hasc": "VN.TN",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Tây Ninh",
+      "region": 7
+    }
+  },
+  {
+    "arcs": [[[402]], [[403]], [[-168, 404, -234, -121, -150, -153]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Thái Bình",
+      "iso": "VN-20",
+      "hasc": "VN.TB",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Thái Bình",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[-229, -79, -117, 405, 406, -81]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Thái Nguyên",
+      "iso": "VN-69",
+      "hasc": "VN.TY",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Thái Nguyên",
+      "region": 2
+    }
+  },
+  {
+    "arcs": [[[407]], [[408]], [[409]], [[-3, -264, 410, -392, 411]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Thừa Thiên–Huế",
+      "iso": "VN-26",
+      "hasc": "VN.TT",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Huế",
+      "region": 4
+    }
+  },
+  {
+    "arcs": [[[412]], [[413]], [[-242, 414, -240, 415, -400, -146]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Thanh Hóa",
+      "iso": "VN-21",
+      "hasc": "VN.TH",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Thanh Hóa",
+      "region": 4
+    }
+  },
+  {
+    "arcs": [[-142, 416, -90, 417, -17, -231]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Tiền Giang",
+      "iso": "VN-46",
+      "hasc": "VN.TG",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Mỹ Tho",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[[418]], [[419]], [[-88, 420, -396, 421]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Trà Vinh",
+      "iso": "VN-51",
+      "hasc": "VN.TV",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Trà Vinh",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[-98, -82, -407, 422, -248, 423, -108]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Tuyên Quang",
+      "iso": "VN-07",
+      "hasc": "VN.TQ",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Tuyên Quang",
+      "region": 2
+    }
+  },
+  {
+    "arcs": [[-422, -398, -170, -101, -18, -418, -89]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Vĩnh Long",
+      "iso": "VN-49",
+      "hasc": "VN.VL",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Vĩnh Long",
+      "region": 8
+    }
+  },
+  {
+    "arcs": [[[-118]], [[-116, -245, -423, -406]]],
+    "type": "MultiPolygon",
+    "properties": {
+      "name": "Vĩnh Phúc",
+      "iso": "VN-70",
+      "hasc": "VN.VC",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Vĩnh Yên",
+      "region": 3
+    }
+  },
+  {
+    "arcs": [[-424, -247, -399, -224, -220, -109]],
+    "type": "Polygon",
+    "properties": {
+      "name": "Yên Bái",
+      "iso": "VN-06",
+      "hasc": "VN.YB",
+      "types": "Tỉnh",
+      "alt_types": "Province",
+      "capital": "Yên Bái",
+      "region": 1
+    }
+  }
+]

@@ -11,7 +11,7 @@ import {
   itemSaleInfoStyle,
 } from "./style";
 
-function Item() {
+function Item({ itemInfo }) {
   return (
     <div style={itemWrapperStyle}>
       <img style={itemImageStyle} alt="product image" />

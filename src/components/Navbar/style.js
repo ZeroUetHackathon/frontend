@@ -11,6 +11,12 @@ export const wrapperStyle = {
   alignItems: "center",
 };
 
+export const homeLogoStyle = {
+  width: 30,
+  height: 30,
+  marginRight: 40,
+};
+
 export const cartLogoStyle = {
   width: 30,
   height: 30,

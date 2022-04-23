@@ -55,6 +55,13 @@
   color: white;
 }
 
+.login-medium-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
 .login-small-button {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -138,4 +145,23 @@
   font-weight: 700;
   font-size: 14px;
   color: #737373;
+}
+
+.field-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #305241;
+}
+
+.dropdown-option-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-option-text:hover {
+  color: #688275;
 }

@@ -5,11 +5,17 @@ import { Link } from "react-router-dom";
 import SearchBar from "../SearchBar/SearchBar";
 
 // styles
-import { wrapperStyle, cartLogoStyle, userLogoStyle } from "./style";
+import {
+  wrapperStyle,
+  cartLogoStyle,
+  userLogoStyle,
+  homeLogoStyle,
+} from "./style";
 
 // images
 import shoppingCartLogo from "../../assets/images/shopping-cart.png";
 import userLogo from "../../assets/images/user.png";
+import home from "../../assets/images/home.png";
 
 function Navbar({ isInShop }) {
   return (
@@ -23,6 +29,9 @@ function Navbar({ isInShop }) {
         <SearchBar />
       )}
       <div>
+        <Link to="/">
+          <img style={homeLogoStyle} src={home} alt="home" />
+        </Link>
         <Link to="shopping-cart">
           <img
             style={cartLogoStyle}

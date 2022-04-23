@@ -49,6 +49,10 @@ function Router() {
           element: <VerifyShopPage />,
         },
         {
+          path: "shop/:id",
+          element: <ShopPage />,
+        },
+        {
           path: "product/:id",
           element: <Product />,
         },
@@ -66,6 +70,7 @@ const MainPage = Loadable(lazy(() => import("../pages/Home/Home")));
 const VerifyShopPage = Loadable(
   lazy(() => import("../pages/VerifyShop/VerifyShop"))
 );
+const ShopPage = Loadable(lazy(() => import("../pages/Shop/ShopDetail")));
 const Product = Loadable(
   lazy(() =>
     import("../components/Itemproperty/PicturesOfProduct/PicturesOfProduct")

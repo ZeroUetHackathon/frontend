@@ -1,6 +1,7 @@
 export const itemListWrapperStyle = {
-  height: "100%",
+  height: "100vh" - 130,
   marginTop: 10,
+  marginBottom: 50,
   width: "100%" - 50,
   backgroundColor: "#F3F3F3",
   borderRadius: 28,
@@ -24,13 +25,14 @@ export const itemInfoStyle = {
 };
 
 export const itemImageStyle = {
-  width: 120,
-  height: 120,
+  width: 130,
+  height: 130,
   borderTopLeftRadius: 10,
   borderBottomLeftRadius: 10,
 };
 
 export const itemSaleInfoStyle = {
+  marginTop: -20,
   height: "100%",
   display: "flex",
   flexDirection: "row",
