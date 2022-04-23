@@ -1,32 +1,12 @@
-export const sidemenuWrapperStyle = {
-  borderRight: "1px solid rgba(0, 0, 0, 0.3)",
-  width: "22vw",
-  padding: "20px 30px",
-  display: "flex",
-  flexDirection: "column",
-};
-
-export const searchbarWrapperStyle = {
-  marginTop: 30,
-  padding: "10px 0px",
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "space-between",
-  alignItems: "center",
-  borderBottom: "1px solid #D8D8D8",
-};
-
 export const formInputStyle = {
-  marginTop: 15,
   display: "flex",
-  backgroundColor: "rgb(230, 235, 230)",
   flexDirection: "row",
   justifyContent: "space-between",
   alignItems: "center",
   padding: "0px 10px",
-  width: "100%",
-  height: 54,
-  borderRadius: 4,
+  width: "70%",
+  height: 36,
+  borderRadius: 10,
   border: "1px solid #305241",
 };
 
